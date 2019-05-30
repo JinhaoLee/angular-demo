@@ -20,9 +20,6 @@ export class DataTableDataSource extends DataSource<DataTableItem> {
   constructor(private paginator: MatPaginator, private sort: MatSort, private fetchedData: Todo[]) {
     super();
     this.data = fetchedData;
-    // this.todoService.getTodos().subscribe(res => {
-    //   this.data = res;
-    // });
   }
 
   /**

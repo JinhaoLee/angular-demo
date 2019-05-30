@@ -22,8 +22,6 @@ export class DataTableComponent implements OnInit {
   ngOnInit(): void {
     this.todoService.getTodos().subscribe(res => {
       this.dataSource = new DataTableDataSource(this.paginator, this.sort, res);
-      console.log(this.dataSource);
     });
-    // this.dataSource = new DataTableDataSource(this.paginator, this.sort, this.todoService, this.dataLoaded);
   }
 }

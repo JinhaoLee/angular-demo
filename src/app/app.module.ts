@@ -13,8 +13,7 @@ import {
   MatButtonModule,
   MatSidenavModule,
   MatIconModule,
-  MatListModule,
-  MatProgressSpinnerModule
+  MatListModule
 } from '@angular/material';
 import { MainNavComponent } from './main-nav/main-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
@@ -35,8 +34,7 @@ import { HttpClientModule } from '@angular/common/http';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    HttpClientModule,
-    MatProgressSpinnerModule
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
